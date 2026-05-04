@@ -64,13 +64,13 @@ Response is displayed in UI
 ## 📸 Screenshots
 
 ### Register
-<img src="images/register.png" width="700"/>
+<img src="images/register-page.png" width="700"/>
 
 ### Login
-<img src="images/login.png" width="700"/>
+<img src="images/login-page.png" width="700"/>
 
 ### Dashboard
-<img src="images/dashboard.png" width="700"/>
+<img src="images/Dashboard.png" width="700"/>
 
 ### Add Job Page
 <img src="images/add-job.png" width="700"/>
