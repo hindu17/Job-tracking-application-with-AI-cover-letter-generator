@@ -64,4 +64,5 @@ Backend sends request to OpenRouter API
 AI generates a customized cover letter
 Response is displayed in UI
 
-![register page](image.png)
+images/register page.png
+![add job](<images/add job.png>)
