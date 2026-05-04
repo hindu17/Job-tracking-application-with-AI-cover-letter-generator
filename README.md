@@ -60,16 +60,23 @@ Backend sends request to OpenRouter API
 AI generates a customized cover letter
 Response is displayed in UI
 
-📸 Screenshots
-Register
+```
+## 📸 Screenshots
+
+### Register
 <img src="images/register.png" width="700"/>
-Login
+
+### Login
 <img src="images/login.png" width="700"/>
-Dashboard
+
+### Dashboard
 <img src="images/dashboard.png" width="700"/>
-Add Job Page
+
+### Add Job Page
 <img src="images/add-job.png" width="700"/>
-AI Generator
-<img src="images\ai-cover-letter.png" width="700"/>
-Cover Letter Page
+
+### AI Generator
+<img src="images/ai-cover-letter.png" width="700"/>
+
+### Cover Letter Page
 <img src="images/cover-letter.png" width="700"/>
