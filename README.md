@@ -68,8 +68,8 @@ Login
 Dashboard
 <img src="images/dashboard.png" width="700"/>
 Add Job Page
-<img src="images/add job.png" width="700"/>
+<img src="images/add-job.png" width="700"/>
 AI Generator
-<img src="images/ai cover letter.png" width="700"/>
+<img src="images/ai-cover-letter.png" width="700"/>
 Cover Letter Page
-<img src="images/cover letter 1.png" width="700"/>
+<img src="images/cover-letter.png" width="700"/>
