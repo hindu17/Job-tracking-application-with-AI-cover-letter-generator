@@ -1,9 +1,9 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 function Navbar() {
   const location = useLocation();
-
+  const navigate = useNavigate();
   // 🌙 theme state
   const [dark, setDark] = useState(
     localStorage.getItem("theme") === "dark"
@@ -23,7 +23,8 @@ function Navbar() {
 
   const logout = () => {
     localStorage.removeItem("token");
-    window.location.href = "/login";
+    // window.location.href = "/login";
+    navigate("/login");
   };
 
   return (
