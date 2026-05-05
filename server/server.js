@@ -14,7 +14,8 @@ import authRoutes from "./routes/authRoutes.js";
 const app = express();
 
 // ✅ MIDDLEWARE
-app.use(cors());
+// app.use(cors());
+app.use(cors({ origin: "*" }));
 app.use(express.json());
 
 // ✅ ROUTES (NOW it's safe)
@@ -32,4 +33,9 @@ mongoose.connect(process.env.MONGO_URI, {
 // ✅ SERVER START
 app.listen(5000, () => console.log("Server running on port 5000"));
 
-console.log("OPENROUTER KEY:", process.env.OPENROUTER_API_KEY);
+// console.log("OPENROUTER KEY:", process.env.OPENROUTER_API_KEY);
+if (!process.env.OPENROUTER_API_KEY) {
+  console.log("❌ AI Key missing");
+} else {
+  console.log("✅ AI Key loaded");
+}
